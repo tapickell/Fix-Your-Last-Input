@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		555817680EFC4327001A7B7B /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555817650EFC4324001A7B7B /* AIUtilities.framework */; };
-		555817690EFC4327001A7B7B /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555817660EFC4327001A7B7B /* Adium.framework */; };
-		5558176A0EFC4327001A7B7B /* FriBidi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555817670EFC4327001A7B7B /* FriBidi.framework */; };
+		266B2CD9174129D200C0D06E /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 266B2CD8174129D200C0D06E /* libpcre.a */; };
+		266B2CDC17412D0500C0D06E /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266B2CDB17412D0500C0D06E /* Adium.framework */; };
+		266B2CDE17412D1100C0D06E /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266B2CDD17412D1100C0D06E /* AIUtilities.framework */; };
+		266B2CE017412E6200C0D06E /* FriBidi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266B2CDF17412E6200C0D06E /* FriBidi.framework */; };
+		266B2CE217412E8D00C0D06E /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266B2CE117412E8D00C0D06E /* AIUtilities.framework */; };
+		266B2CE417412EA500C0D06E /* FriBidi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266B2CE317412EA500C0D06E /* FriBidi.framework */; };
+		266B2CE617412EAE00C0D06E /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266B2CE517412EAE00C0D06E /* Adium.framework */; };
 		555818660EFC4350001A7B7B /* TNPFixYourLastInputPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 555818650EFC4350001A7B7B /* TNPFixYourLastInputPlugin.m */; };
 		55A2E58F118373AA0055A2D5 /* objpcre.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A2E58D118373AA0055A2D5 /* objpcre.m */; };
-		55AA122F1183843D008D2980 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55AA122E1183843D008D2980 /* libpcre.a */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -22,10 +25,14 @@
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		266B2CD8174129D200C0D06E /* libpcre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpcre.a; path = ../../../Desktop/libpcre.a; sourceTree = "<group>"; };
+		266B2CDB17412D0500C0D06E /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Adium.framework; path = ../../../Desktop/Adium.framework; sourceTree = "<group>"; };
+		266B2CDD17412D1100C0D06E /* AIUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AIUtilities.framework; path = ../../../Desktop/AIUtilities.framework; sourceTree = "<group>"; };
+		266B2CDF17412E6200C0D06E /* FriBidi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FriBidi.framework; path = ../../../Desktop/FriBidi.framework; sourceTree = "<group>"; };
+		266B2CE117412E8D00C0D06E /* AIUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AIUtilities.framework; sourceTree = "<group>"; };
+		266B2CE317412EA500C0D06E /* FriBidi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FriBidi.framework; sourceTree = "<group>"; };
+		266B2CE517412EAE00C0D06E /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adium.framework; sourceTree = "<group>"; };
 		32DBCF630370AF2F00C91783 /* FixYourLastInputPlugin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixYourLastInputPlugin_Prefix.pch; sourceTree = "<group>"; };
-		555817650EFC4324001A7B7B /* AIUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AIUtilities.framework; sourceTree = "<group>"; };
-		555817660EFC4327001A7B7B /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adium.framework; sourceTree = "<group>"; };
-		555817670EFC4327001A7B7B /* FriBidi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FriBidi.framework; sourceTree = "<group>"; };
 		555818640EFC4350001A7B7B /* TNPFixYourLastInputPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNPFixYourLastInputPlugin.h; sourceTree = "<group>"; };
 		555818650EFC4350001A7B7B /* TNPFixYourLastInputPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNPFixYourLastInputPlugin.m; sourceTree = "<group>"; };
 		55A2E58C118373AA0055A2D5 /* objpcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objpcre.h; sourceTree = "<group>"; };
@@ -42,11 +49,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266B2CE017412E6200C0D06E /* FriBidi.framework in Frameworks */,
+				266B2CDE17412D1100C0D06E /* AIUtilities.framework in Frameworks */,
+				266B2CDC17412D0500C0D06E /* Adium.framework in Frameworks */,
+				266B2CD9174129D200C0D06E /* libpcre.a in Frameworks */,
 				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
-				555817680EFC4327001A7B7B /* AIUtilities.framework in Frameworks */,
-				555817690EFC4327001A7B7B /* Adium.framework in Frameworks */,
-				5558176A0EFC4327001A7B7B /* FriBidi.framework in Frameworks */,
-				55AA122F1183843D008D2980 /* libpcre.a in Frameworks */,
+				266B2CE217412E8D00C0D06E /* AIUtilities.framework in Frameworks */,
+				266B2CE417412EA500C0D06E /* FriBidi.framework in Frameworks */,
+				266B2CE617412EAE00C0D06E /* Adium.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +66,10 @@
 		089C166AFE841209C02AAC07 /* FixYourLastInputPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				266B2CDF17412E6200C0D06E /* FriBidi.framework */,
+				266B2CDD17412D1100C0D06E /* AIUtilities.framework */,
+				266B2CDB17412D0500C0D06E /* Adium.framework */,
+				266B2CD8174129D200C0D06E /* libpcre.a */,
 				08FB77AFFE84173DC02AAC07 /* Classes */,
 				32C88E010371C26100C91783 /* Other Sources */,
 				089C167CFE841241C02AAC07 /* Resources */,
@@ -98,9 +112,9 @@
 		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				555817650EFC4324001A7B7B /* AIUtilities.framework */,
-				555817660EFC4327001A7B7B /* Adium.framework */,
-				555817670EFC4327001A7B7B /* FriBidi.framework */,
+				266B2CE517412EAE00C0D06E /* Adium.framework */,
+				266B2CE317412EA500C0D06E /* FriBidi.framework */,
+				266B2CE117412E8D00C0D06E /* AIUtilities.framework */,
 				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
 				55AA122E1183843D008D2980 /* libpcre.a */,
 			);
@@ -164,7 +178,11 @@
 			};
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "FixYourLastInputPlugin" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 089C166AFE841209C02AAC07 /* FixYourLastInputPlugin */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -213,10 +231,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Desktop\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -230,6 +250,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../Downloads\"",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Desktop\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -238,7 +259,7 @@
 				);
 				PRODUCT_NAME = FixYourLastInputPlugin;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = AdiumPlugin;
 			};
 			name = Debug;
@@ -247,10 +268,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Desktop\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -261,11 +284,12 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../Downloads\"",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Desktop\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = FixYourLastInputPlugin;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = AdiumPlugin;
 			};
 			name = Release;
