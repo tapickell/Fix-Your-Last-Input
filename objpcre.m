@@ -82,7 +82,7 @@ const int MAX_VECTOR_SIZE = 99;
 
 + (id)regexWithPattern:(NSString *)pattern
 {
-	return [[[ObjPCRE alloc] initWithPattern:pattern] autorelease];
+	return [[ObjPCRE alloc] initWithPattern:pattern];
 }
 
 - (void)dealloc
@@ -94,7 +94,6 @@ const int MAX_VECTOR_SIZE = 99;
 	
 	free(mVector);
 	
-	[super dealloc];
 }
 
 - (void)initializeWithVectorSize:(int)maxVectorSize
@@ -496,8 +495,6 @@ maxReplacements:(int)max
 	} // end WHILE
 	
 	// free mem
-	if ( refRegex )
-		[refRegex release];
 	
 	// restore to class vars
 	mVector = prevVector;

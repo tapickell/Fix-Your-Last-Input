@@ -63,8 +63,6 @@
 
 
 - (void)uninstallPlugin {	
-  [lastOutgoingMessages release];
-  [toggleCorrectionMI release];
 	
   [[adium contentController] unregisterContentFilter:self];
 }
@@ -143,7 +141,6 @@
             replacement:replacement];
   }
 
-  [regex release];
 
   // Set new message text
   NSString *newMessageRawText;
@@ -154,8 +151,8 @@
   }
 
   NSDictionary *defaultFormatting = [[adium contentController] defaultFormattingAttributes];
-  NSAttributedString *newMessageText = [[[NSAttributedString alloc] initWithString:newMessageRawText 
-                                                                        attributes:defaultFormatting] autorelease];
+  NSAttributedString *newMessageText = [[NSAttributedString alloc] initWithString:newMessageRawText 
+                                                                        attributes:defaultFormatting];
 
   // Overwrite the last outgoing message for this chat
   [lastOutgoingMessages setValue:transformedMessage 
